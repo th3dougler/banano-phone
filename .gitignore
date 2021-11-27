@@ -1,4 +1,4 @@
-!build/*
 build/*
+build/client
 !build/client
 build/client/*
