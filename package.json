@@ -1,0 +1,24 @@
+{
+  "name": "bananophone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx ts-node index.ts",
+    "dev:server": "nodemon index.ts",
+    "build:server": "npx tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  }
+}
