@@ -1,4 +1,4 @@
 !build/*
 build/*
-!build/frontend
-build/frontend/*
+!build/client
+build/client/*
